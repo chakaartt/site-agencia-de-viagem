@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3XwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Agência de viagem | vamos curti</title>
+</head>
+<body>
+  <!--- navegador -->
+  
+  <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+              <img src="./images//marca/logo2.png" alt="" width="125px">
+          </div>
+          <nav>
+              <ul id="menuItens">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Destino</a></li>
+                  <li><a href="">Pacotes</a></li>
+                  <li><a href="">Promoções</a></li>
+                  <li><a href="">Contato</a></li>
+              </ul>
+          </nav>
+            <img src="./images/menu/cart.png" alt="" width="30px" height="30px">
+            <img src="./images/menu/menu.png" class="menu-icon" onclick="menuToggle()">
+        </div>
+        <div class="row">
+              <div class="col-2">
+                  <h1>pacotes incríveis<br>te esperam</h1>
+                  <p>Opções perfeitas para voce economizar!</p>
+                  <a href="" class="btn">explorar agora &#8594;</a>
+              </div>
+              <div class="col-2">
+                <img src="./images/categorias/viagem2.png">
+              </div>
+        </div>
+      </div>
+  </div>
+         <!-- categorias -->
+  <div class="categorias">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="./images/categorias/disney2.jpg">
+          <h2 class="titulo2">internacional</h2>
+        </div>
+        <div class="col-3">
+          <img src="./images/categorias/praia2.jpg">
+          <h2 class="titulo2">Praias</h2>
+        </div>
+        <div class="col-3">
+          <img src="./images/categorias/cachoeira.jpg">
+          <h2 class="titulo2">trilhas</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+            <!-- produtos -->
+  <div class="small-container">
+      <h2 class="titulo">Oferta de viagem</h2>
+        <div class="row">
+            <div class="col-4">
+              <img src="./images/prod/mg.jpg" alt="">
+              <h4>Cidade de Tiradentes, MG, Brasil</h4>
+                <div class="rating">
+                  <p class="fa">&#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+              <p>R$1,500</p>
+            </div>
+            <div class="col-4">
+              <img src="./images/prod/B.jpg" alt="">
+              <h4>Tibidabo Amusement Park, Barcelona, Spain</h4>
+                <div class="rating">
+                  <p class="fa">&#9733;&#9733;&#9733;</p>
+                </div>
+              <p>R$3,800</p>
+          </div>
+        <div class="col-4">
+          <img src="./images/prod/FB.jpg" alt="">
+          <h4> Fernando de noronha, PE, Brasil</h4>
+            <div class="rating">
+              <p class="fa">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            </div>
+          <p>R$2,500</p>
+      </div>
+      <div class="col-4">
+        <img src="./images/prod/mx.jpg" alt="">
+        <h4> Oaxaca de Juárez, Oaxaca, Mexico</h4>
+          <div class="rating">
+            <p class="fa">&#9733;&#9733;&#9733;&#9733;</p>
+          </div>
+        <p>R$3,500</p>
+      </div>
+    </div>
+          <!--pacotes de viagem-->
+  <h2 class="titulo">Pacotes de viagem</h2>
+
+  <div class="row">
+        <div class="col-4">
+          <img src="./images/pacote/canada.jpg" alt="">
+          <h4>Pacote de viagem-Canada</h4>
+            <div class="rating">
+              <p class="fa">&#9733;&#9733;&#9733;&#9733;</p>
+            </div>
+          <p>R$1,500</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/pacote/londre.jpg" alt="">
+          <h4>Pacote de viagem-London</h4>
+            <div class="rating">
+              <p class="fa">&#9733;&#9733;&#9733;</p>
+            </div>
+          <p>R$3,800</p>
+        </div>
+        <div class="col-4">
+          <img src="./images/pacote/ams.jpg" alt="">
+          <h4> Pacote de viagem-Amsterdã</h4>
+            <div class="rating">
+              <p class="fa">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            </div>
+          <p>R$2,500</p>
+        </div>
+        <div class="col-4">
+        <img src="./images/pacote/colo.jpg" alt="">
+        <h4> Pacote de viagem-colombia</h4>
+          <div class="rating">
+            <p class="fa">&#9733;&#9733;&#9733;&#9733;</p>
+          </div>
+        <p>R$3,500</p>
+        </div>    
+  </div>
+</div>
+    <!---Ofestas-->
+      <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                  <div class="col-2">
+                    <img src="./images/ofertas/Porto-Seguro-Praia-Resort.png" class="offer-img">
+                  </div>
+                  <div class="col-2">
+                    <p>Descontos Exclusivos</p>
+                    <h1>pacote de viagem + hotel</h1>
+                    <small>Descubra os melhores  resort hotéis e destinos turísticos do mundo aqui.</small>
+                    <a href="" class="btn">Compra Agora &#8594;</a>
+                  </div>
+                </div>
+            </div>
+      </div>
+         
+      <!--- comentários -->
+
+      <div class="cometario">
+          <div class="small-container">
+              <div class="row">
+                  <div class="col-3">
+                      <p class="aspa">	
+                        &#8223;</p>
+                      <p id="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos praesentium, obcaecati molestias veritatis perferendis similique placeat mollitia unde incidunt natus sed, vitae voluptatem, commodi officiis autem aut. Ex, magnam itaque.</p>
+                      <div class="rating">
+                        <p class="fa">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                      </div>
+                      <img src="./images/perfil/perfil1.jpg">
+                      <h3>Maria Clara</h3>
+                  </div>
+                  <div class="col-3">
+                      <p class="aspa">	
+                        &#8223;</p>
+                      <p id="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos praesentium, obcaecati molestias veritatis perferendis similique placeat mollitia unde incidunt natus sed, vitae voluptatem, commodi officiis autem aut. Ex, magnam itaque.</p>
+                      <div class="rating">
+                        <p class="fa">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                      </div>
+                      <img src="./images/perfil/perfil2.jpg">
+                      <h3>Joana Martiz</h3>
+                  </div>
+                  <div class="col-3">
+                    <p class="aspa">	
+                      &#8223;</p>
+                    <p id="feedback">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos praesentium, obcaecati molestias veritatis perferendis similique placeat mollitia unde incidunt natus sed, vitae voluptatem, commodi officiis autem aut. Ex, magnam itaque.</p>
+                    <div class="rating">
+                      <p class="fa">&#9733;&#9733;&#9733;</p>
+                    </div>
+                    <img src="./images/perfil/perfil3.jpg">
+                    <h3>Zé Luiz</h3>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!---- marcas-->
+
+      <div class="marcas">
+          <div class="small-container">
+              <div class="row">
+                  <div class="col-5">
+                    <img src="./images/marca/logo-paypal.png">
+                  </div>
+                  <div class="col-5">
+                    <img src="./images/marca/logo-oppo.png">
+                  </div>
+                  <div class="col-5">
+                    <img src="./images/marca/logo-coca-cola.png">
+                  </div>
+                  <div class="col-5">
+                    <img src="./images/marca/recode.png">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+<!-- foot -->
+
+      <div class="rodape">
+          <div class="container">
+              <div class="row">
+                <div class="footer-col-1">
+                  <h1>Download do nosso app</h1>
+                  <p>Download do app para android e Iphone.</p>
+                  <div class="app">
+                    <img src="./images/marca/play-store.png">
+                    <img src="./images/marca/app-store.png">
+                  </div>
+                </div>
+                <div class="footer-col-2">
+                  <img src="./images/marca/logo2.png">
+                  <p>Nossa missão é trazer o melhor em cada viagem.</p>
+                </div>
+                <div class="footer-col-3">
+                  <h3>Links Úteis</h3>
+                  <ul>
+                    <li>Central de ajudar</li>
+                    <li>Política de trabalho</li>
+                    <li>Política de privacidade</li>
+                    <li>Trabalhe com conosco</li>
+                  </ul>
+                </div>
+                <div class="footer-col-4">
+                  <h3>Fale conosco</h3>
+                  <ul>
+                    <li>Facebook</li>
+                    <li>Instragam</li>
+                    <li>Youtube</li>
+                    <li>Twttier</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+          <hr>
+           <p class="julio">Desenvolvindo - Júlio Cesar 2022</p>
+      </div>
+      <!---- JS - MENU-->
+      <Script>
+        var menuItens = document.getElementById("menuItens");
+
+        menuItens.style.maxHeight = "0px"
+
+        function menuToggle() {
+            if(menuItens.style.maxHeight == "0px") {
+              menuItens.style.maxHeight = "200px";
+            }
+            else {
+              menuItens.style.maxHeight = "0px";
+            }
+        }
+      </Script>
+</body>
+</html>
