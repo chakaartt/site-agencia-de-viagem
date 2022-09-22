@@ -28,7 +28,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 90%;
-  max-width: 800px;
+  max-width: 450px;
   background: #fff;
 }
 
@@ -72,7 +72,7 @@ input[type="checkbox"] {
 
 .box-esquerdo button {
   width: 100%;
-  background: #fff;
+  background: #6425a3;
   padding: 10px;
   border: 0;
   outline: none;
@@ -101,38 +101,6 @@ input[type="checkbox"] {
 
 .box-esquerdo:hover span {
   width: 30px;
-}
-
-.box-direito a {
-  display: block;
-  width: 100%;
-  margin: 20px 0;
-  min-width: 250px;
-  color: #fff;
-  font-size: 14px;
-  padding: 15px 30px;
-  text-decoration: none;
-
-}
-
-.box-direito a i {
-  font-size: 18px;
-  margin-right: 10px;
-
-}
-
-.fb-link {
-  background: #1778f2;
- 
-}
-
-.gg-link {
-  background: #ea4335;
-
-}
-
-.tw-link {
-  background: #1da1f2;
 }
 
 .login-msg {
